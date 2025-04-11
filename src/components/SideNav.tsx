@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 const SideNav = () => {
   return (
     // Side Nav
-    <nav className="flex flex-col font-[Poppins]   w-[267px] h-[1024px] rounded-[1px] bg-[#FDFDFD] pt-[24px] pr-[16px] pb-[24px] pl-[16px] gap-[8px] ">
+    <nav className="hidden sm:flex flex-col font-[Poppins]   w-[267px] h-[1024px] rounded-[1px] bg-[#FDFDFD] pt-[24px] pr-[16px] pb-[24px] pl-[16px] gap-[8px] ">
       {/* Top of Side Nav */}
       <div className="flex justify-between w-[235px] h-[32px] pl-[10px] mb-10">
         <img src={Frame_3901} alt="Logo" />

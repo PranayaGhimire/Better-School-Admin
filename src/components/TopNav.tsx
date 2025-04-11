@@ -4,9 +4,9 @@ import Ellipse_1 from "../assets/Ellipse 1.svg";
 import arrow_down_01 from "../assets/arrow-down-01.svg";
 const TopNav = () => {
   return (
-    <nav className="flex font-[Poppins] w-[1250px] h-[74px] border-[1px] absolute left-[267px]  border-[#F7F7F7] bg-[#FDFDFD]  rounded-[1px] justify-between pt-[16px] pr-[24px] pb-[16px] pl-[24px]">
+    <nav className="flex items-center font-[Poppins]  sm:w-[1250px] h-[74px] border-[1px] sm:absolute sm:left-[267px]  border-[#F7F7F7] bg-[#FDFDFD] justify-evenly   sm:justify-between pt-[16px] sm:pr-[24px] pb-[16px] sm:pl-[24px]">
         {/* Search Input */}
-        <div className="flex items-center w-[372px] h-[42px] rounded-[8px] gap-[10px] py-[10px] px-[16px]  bg-[#F7F7F7] border-[1px] border-[#E0E0E0]">
+        <div className="flex items-center sm:w-[372px] h-[42px] rounded-[8px] gap-[10px] py-[10px] px-[5px] sm:px-[16px]  bg-[#F7F7F7] border-[1px] border-[#E0E0E0]">
             <img src={search_01} alt="" />
             <input type="text" placeholder="Search..." className="text-[14px] leading-[160%] w-full outline-none placeholder:text-[#4D4D4D]" />
         </div>
